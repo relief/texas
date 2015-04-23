@@ -20,6 +20,3 @@ def addone():
 	p1 = call(cmd, shell=True)
 	print 'Decision: addone'
 
-def screencap():
-	cmd = r"adb shell screencap | perl -pe 's/\x0D\x0A/\x0A/g' > data/screenshot.raw;"
-	p1 = call(cmd, shell=True)

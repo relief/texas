@@ -3,5 +3,9 @@ data/screenshot.raw
 png/
 rank/all/
 rank/hard/
-own/
+own/all/
+own/card1_suit/
+own/card2_suit/
+own/card1_rank/all
+own/card2_rank/all
 suit/all/

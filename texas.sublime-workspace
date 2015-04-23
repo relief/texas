@@ -4,8 +4,68 @@
 		"selected_items":
 		[
 			[
+				"fi",
+				"fittest_s"
+			],
+			[
+				"cimg",
+				"cimg"
+			],
+			[
+				"get",
+				"getOwnCard"
+			],
+			[
+				"min",
+				"minm_suit"
+			],
+			[
+				"max",
+				"maxs_suit"
+			],
+			[
+				"mi",
+				"minm_suit"
+			],
+			[
+				"st",
+				"st"
+			],
+			[
+				"ran",
+				"rangpai"
+			],
+			[
+				"e",
+				"equal_images"
+			],
+			[
+				"im",
+				"imageB"
+			],
+			[
+				"ima",
+				"imageA"
+			],
+			[
+				"img",
+				"img2cv2"
+			],
+			[
 				"re",
-				"region"
+				"region_rangpai"
+			],
+			[
+				"cv2",
+				"cv2_img"
+			],
+			[
+				"reg",
+				"region_state"
+			],
+			[
+				"ope",
+				"open_cv_image"
 			],
 			[
 				"box",
@@ -76,16 +136,8 @@
 				"poss"
 			],
 			[
-				"min",
-				"minm"
-			],
-			[
 				"i",
 				"i"
-			],
-			[
-				"max",
-				"maxs"
 			],
 			[
 				"card",
@@ -94,10 +146,6 @@
 			[
 				"car",
 				"card_num"
-			],
-			[
-				"fi",
-				"fittest_s"
 			],
 			[
 				"num",
@@ -114,10 +162,6 @@
 			[
 				"html",
 				"html_data"
-			],
-			[
-				"e",
-				"emails"
 			],
 			[
 				"cl",
@@ -166,10 +210,6 @@
 			[
 				"uid",
 				"uid"
-			],
-			[
-				"get",
-				"get_connect_tokens"
 			],
 			[
 				"cont",
@@ -286,10 +326,6 @@
 			[
 				"f",
 				"fdata"
-			],
-			[
-				"ran",
-				"random"
 			],
 			[
 				"to",
@@ -478,42 +514,6 @@
 			[
 				"NO",
 				"NOSPRD"
-			],
-			[
-				"write",
-				"write_pid"
-			],
-			[
-				"locl",
-				"local_ticket"
-			],
-			[
-				"x",
-				"x"
-			],
-			[
-				"lis",
-				"list_sdev"
-			],
-			[
-				"dig",
-				"digits2"
-			],
-			[
-				"ntp",
-				"ntp_server"
-			],
-			[
-				"printf",
-				"printf	printf …"
-			],
-			[
-				"tv",
-				"tv_usec"
-			],
-			[
-				"outpu",
-				"output_pipe_b"
 			]
 		]
 	},
@@ -523,23 +523,32 @@
 			"file": "play.py",
 			"settings":
 			{
-				"buffer_size": 430,
+				"buffer_size": 688,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "fanhuidating.py",
+			"file": "brain.py",
 			"settings":
 			{
-				"buffer_size": 254,
+				"buffer_size": 303,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "card.py",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix",
+				"name": "class Card:"
 			}
 		},
 		{
 			"file": "env.py",
 			"settings":
 			{
-				"buffer_size": 2219,
+				"buffer_size": 2148,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +556,39 @@
 			"file": "ImageComp.py",
 			"settings":
 			{
-				"buffer_size": 3566,
+				"buffer_size": 3727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oldcode/ImageComp1.py",
+			"settings":
+			{
+				"buffer_size": 3244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oldcode/img2cv2.py",
+			"settings":
+			{
+				"buffer_size": 2792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oldcode/img.py",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oldcode/ImageCompTest.py",
+			"settings":
+			{
+				"buffer_size": 2724,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +596,15 @@
 			"file": "dapai.py",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 67,
 				"line_ending": "Unix"
 			}
 		}
@@ -587,6 +636,14 @@
 	},
 	"file_history":
 	[
+		"/d/replay/test.py",
+		"/d/replay/oldcode/owncard.py",
+		"/d/replay/img.py",
+		"/d/replay/data/screencap",
+		"/d/replay/data/raw.txt",
+		"/d/replay/img2cv2.py",
+		"/d/replay/fanhuidating.py",
+		"/d/replay/.gitignore",
 		"/d/replay/g",
 		"/home/relief/Dropbox/cs239/feature.py",
 		"/home/relief/Dropbox/cs239/parse_data.py",
@@ -596,7 +653,6 @@
 		"/home/relief/Dropbox/cs239/clean_data/3_good.txt",
 		"/home/relief/Dropbox/cs239/test.py",
 		"/d/replay/ImageComp1.py",
-		"/d/replay/test.py",
 		"/d/replay/screen.py",
 		"/d/replay/p",
 		"/d/replay/ImageComp.py",
@@ -615,7 +671,6 @@
 		"/home/relief/Dropbox/cs239/clean/2_bad.txt",
 		"/home/relief/Dropbox/cs239/clean/1_good.txt",
 		"/home/relief/Dropbox/cs239/clean/1_bad.txt",
-		"/d/replay/img.py",
 		"/home/relief/Dropbox/cs239/yanbin_good.txt",
 		"/home/relief/Dropbox/replay/p",
 		"/home/relief/Dropbox/replay/img.py",
@@ -708,13 +763,7 @@
 		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/body_handler.py",
 		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/log123.txt",
 		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/templates/index.html",
-		"/home/relief/Dropbox/adigest/oauth.py",
-		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/__init__ (XIE YU's conflicted copy 2015-04-04).py",
-		"/d/py/mysite/polls/views.py",
-		"/d/py/mysite/polls/templates/polls/index.html",
-		"/home/relief/.ssh/config",
-		"/home/relief/.ssh/SSH_AWS.sh",
-		"/d/py/mysite/polls/templates/polls/detail.html"
+		"/home/relief/Dropbox/adigest/oauth.py"
 	],
 	"find":
 	{
@@ -729,9 +778,24 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"hearts",
+			"clubs",
+			"diamonds",
+			"card1",
+			"Image",
+			"assuit",
+			"rankpy",
+			"Num",
+			"num",
+			"Num",
+			"type",
+			"Type",
+			"type",
+			"Type",
+			"save",
 			"csv",
 			"math",
 			"skeleton",
@@ -844,29 +908,26 @@
 			" 00:00:00",
 			"')\n",
 			"<p class=\"lineThrough\">.*</p>",
-			"<p class=\"lineThrough\">$204.00</p>",
-			"<p class=\"lineThrough\">.*</p>",
-			"<img width=\"1\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/reserve/tickets/vertSpacer.gif\">",
-			"zero_out",
-			"readdir",
-			"ospfs_inode_data",
-			"<a",
-			"</a>",
-			"<a.*e\">",
-			"<a.*\">D",
-			"<a.*</a>",
-			"<a .*</a>",
-			"<a*</a>",
-			"<a href=\"https://disneyland.disney.go.com/disneyland/en_US/reserve/buildticketurlredirect?id=DLR_DD_COMM_2DPH_TicketLink\"> ",
-			"<img name=\"roll_BuyButtonMedia_en_US\" galleryimg=\"no\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/_global/buttons/BuyButton2.gif\" alt=\"Buy\" title=\"Buy\" width=\"43\" height=\"16\" id=\"BuyButtonMedia\"></a>",
-			"<a href=\"https://disneyland.disney.go.com/disneyland/en_US/reserve/buildticketurlredirect?id=DLR_DD_COMM_2D1P_TicketLink\"> \n		\n			<img name=\"roll_BuyButtonMedia_en_US\" galleryimg=\"no\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/_global/buttons/BuyButton2.gif\" alt=\"Buy\" title=\"Buy\" width=\"43\" height=\"16\" id=\"BuyButtonMedia\"></a>"
+			"<p class=\"lineThrough\">$204.00</p>"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"club",
+			"diamond",
+			"card2",
+			"astype",
+			"numpy",
+			"Rank",
+			"rank",
+			"Rank",
+			"suit",
+			"Suit",
+			"suit",
+			"Suit",
 			"trail",
 			"hand",
 			"m < 2000 ",
@@ -946,12 +1007,12 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": false
+		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -960,43 +1021,131 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 430,
+						"buffer_size": 688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								685,
+								685
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 351.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "brain.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "fanhuidating.py",
+					"buffer": 2,
+					"file": "card.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 254,
+						"buffer_size": 84,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Card:",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "env.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1966,
+								1966
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ImageComp.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
 							]
 						],
 						"settings":
@@ -1012,20 +1161,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "env.py",
+					"buffer": 5,
+					"file": "oldcode/ImageComp1.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2219,
+						"buffer_size": 3244,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								705,
-								705
+								3044,
+								3044
 							]
 						],
 						"settings":
@@ -1037,24 +1186,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "ImageComp.py",
+					"buffer": 6,
+					"file": "oldcode/img2cv2.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3566,
+						"buffer_size": 2792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2258,
-								2258
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 2070.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "oldcode/img.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1063,38 +1241,96 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 115.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
+					"file": "oldcode/ImageCompTest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1432,
+								1432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "dapai.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1135,7 +1371,7 @@
 	{
 		"height": 0.0
 	},
-	"project": "texas.sublime-project",
+	"project": "texas.sublime-workspace",
 	"replace":
 	{
 		"height": 72.0
