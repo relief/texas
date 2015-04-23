@@ -1,0 +1,26 @@
+add device 1: /dev/input/event5
+  name:     "msm8974-taiko-mtp-snd-card Headset Jack"
+add device 2: /dev/input/event4
+  name:     "msm8974-taiko-mtp-snd-card Button Jack"
+add device 3: /dev/input/event3
+  name:     "hs_detect"
+add device 4: /dev/input/event1
+  name:     "touch_dev"
+add device 5: /dev/input/event0
+  name:     "qpnp_pon"
+add device 6: /dev/input/event2
+  name:     "gpio-keys"
+41816-804147 /dev/input/event1: 0003 0039 000029a5
+41816-804147 /dev/input/event1: 0003 0035 00000060
+41816-804147 /dev/input/event1: 0003 0036 00000637
+41816-804147 /dev/input/event1: 0003 003a 00000034
+41816-804147 /dev/input/event1: 0000 0000 00000000
+41816-904101 /dev/input/event1: 0003 0039 ffffffff
+41816-904101 /dev/input/event1: 0000 0000 00000000
+41817-768365 /dev/input/event1: 0003 0039 000029a6
+41817-768365 /dev/input/event1: 0003 0035 0000002e
+41817-768365 /dev/input/event1: 0003 0036 00000634
+41817-768365 /dev/input/event1: 0003 003a 00000031
+41817-768365 /dev/input/event1: 0000 0000 00000000
+41817-843214 /dev/input/event1: 0003 0039 ffffffff
+41817-843214 /dev/input/event1: 0000 0000 00000000

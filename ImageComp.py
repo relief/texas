@@ -1,4 +1,3 @@
-import Image
 from skimage.measure import structural_similarity as ssim
 import numpy as np
 import cv2
@@ -24,106 +23,62 @@ def compare_images(imageA, imageB):
 	#print "MSE: %.2f, SSIM: %.2f\n" % (m, s)
  	return m,s
 
-def compareType(fn="type/tmp.png"):
-	global diamonds, clubs, hearts, spade
-	contrast = cv2.imread(fn)
-	# convert the images to grayscale
-	contrast = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
+def equal_images(imageA, imageB):
+	m = mse(imageA, imageB)
+	if m < 500:
+		return True
+	return False
 
-	lm, ls = [], []
-	m,s = compare_images(diamonds, contrast)
-	lm.append(m)
-	ls.append(s)
+def compareSuit(contrast):
+	minm = 10000000
+	maxs = -2
+	minm_suit, maxs_suit = '', ''
+	for st in suit:
+		m, s = compare_images(suit[st], contrast)
+		if m < minm:
+			minm = m
+			minm_suit = st
+		if s > maxs:
+			maxs = s
+			maxs_suit = st
+	if maxs_suit == minm_suit and minm < 10000 and maxs > 0.5:
+		return maxs_suit
+	return 'unknown'
 
-	m,s = compare_images(clubs, contrast)
-	lm.append(m)
-	ls.append(s)
-
-	m,s = compare_images(hearts, contrast)
-	lm.append(m)
-	ls.append(s)
-
-	m,s = compare_images(spade, contrast)
-	lm.append(m)
-	ls.append(s)	
-	
-	minm = min(lm)
-	maxs = max(ls)
-	for i in range(4):
-		if lm[i] == minm:
-			posm = i
-			break
-	for i in range(4):
-		if ls[i] == maxs:
-			poss = i
-			break
-	#print minm, posm, maxs, poss
-	if posm != poss or minm > 10000 or maxs < 0.5:
-		return "unknown"
-	else:
-		if posm == 0:
-			return "diamonds"
-		elif posm == 1:
-			return "clubs"
-		elif posm == 2:
-			return "hearts"
-		else:
-			return "spade"
-
-def compareNum(fn="num/tmp.png"):
-	contrast = cv2.imread(fn)
-	# convert the images to grayscale
-	contrast = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
+def compareRank(contrast):
 	fittest = -1
 	fittest_m = 1000000
 	fittest_s = 0
 	for i in range(13):
-		mh,sh = compare_images(num_img[i][0], contrast)
-		mr,sr = compare_images(num_img[i][1], contrast)
-		m = min(mh,mr)
-		s = max(sh,sr)
-		if m < fittest_m:
-			fittest_m = m
-			fittest_s = s
-			fittest = i
+		for hr in range(2):
+			m,s = compare_images(rank_img[i][hr], contrast)
+			if m < fittest_m:
+				fittest_m = m
+				fittest_s = s
+				fittest = i
 	if fittest_m < 4000 and fittest_s > 0.55:
-		#print "best: ", fittest+1," , m = ",fittest_m, "  , s= ",fittest_s
 		return str(fittest+1)
 	return "unknown"
 
-def compareChupai(contrast, fn="state/tmp_chupai.png"):
-	global chupai
-	m,s = compare_images(chupai, contrast)
-	if m < 1000 and s > 0.5:
-		return 1
-	return 0
+def compareChupai(contrast):
+	return equal_images(state['chupai'], contrast)
 
-def compareRangpai(fn="state/tmp_rangpai.png"):
-	global rangpai
-	contrast = cv2.imread(fn)
-	contrast = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
-	m,s = compare_images(rangpai, contrast)
-	if m < 3000 and s > 0.5:
-		return 1
-	return 0
+def compareRangpai(contrast):
+	return equal_images(state['rangpai'], contrast)
 
-diamonds = cv2.cvtColor(cv2.imread("type/diamond.png"), cv2.COLOR_BGR2GRAY)
-clubs = cv2.cvtColor(cv2.imread("type/clubs.png"), cv2.COLOR_BGR2GRAY)
-hearts = cv2.cvtColor(cv2.imread("type/heart.png"), cv2.COLOR_BGR2GRAY)
-spade = cv2.cvtColor(cv2.imread("type/spade.png"), cv2.COLOR_BGR2GRAY)
-chupai = cv2.cvtColor(cv2.imread("state/chupai.png"), cv2.COLOR_BGR2GRAY)
-rangpai = cv2.cvtColor(cv2.imread("state/rangpai.png"), cv2.COLOR_BGR2GRAY)
+state = dict()
+state['chupai'] = cv2.cvtColor(cv2.imread("state/chupai.png"), cv2.COLOR_BGR2GRAY)
+state['rangpai'] = cv2.cvtColor(cv2.imread("state/rangpai.png"), cv2.COLOR_BGR2GRAY)
 
-num_img = []
+suit = dict()
+suit['diamonds'] = cv2.cvtColor(cv2.imread("suit/diamond.png"), cv2.COLOR_BGR2GRAY)
+suit['clubs'] = cv2.cvtColor(cv2.imread("suit/clubs.png"), cv2.COLOR_BGR2GRAY)
+suit['hearts'] = cv2.cvtColor(cv2.imread("suit/heart.png"), cv2.COLOR_BGR2GRAY)
+suit['spade'] = cv2.cvtColor(cv2.imread("suit/spade.png"), cv2.COLOR_BGR2GRAY)
+
+
+rank_img = []
 for i in range(1,14):
-	h = cv2.cvtColor(cv2.imread("num/"+str(i)+"h.png"), cv2.COLOR_BGR2GRAY)
-	r = cv2.cvtColor(cv2.imread("num/"+str(i)+"r.png"), cv2.COLOR_BGR2GRAY)
-	num_img.append((h,r))
-
-# import os
-# path = "num/all/"
-# dirs = os.listdir( path )
-# import random
-# for file in dirs:
-# 	name = compareNum(path+file)
-# 	os.rename(path+file, path+"_"+name+"_"+str(random.uniform(0, 100))+".png")
+	h = cv2.cvtColor(cv2.imread("rank/"+str(i)+"h.png"), cv2.COLOR_BGR2GRAY)
+	r = cv2.cvtColor(cv2.imread("rank/"+str(i)+"r.png"), cv2.COLOR_BGR2GRAY)
+	rank_img.append((h,r))

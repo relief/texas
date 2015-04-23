@@ -15,9 +15,8 @@ class Env:
 	left = 500
 	next = height + padding
 	leftTop = [(left,522),(left,522+next),(left,522+2*next),(left,522+3*next),(left,522+4*next)]
-	box_num = (118,2,177,45)
-	box_type = (75,5,117,40)
-	box_state = (30,780,125,800)
+	box_rank = (118,2,177,45)
+	box_suit = (75,5,117,40)
 	box_own = (275,955,370,1050)
 
 	def __init__(self):
@@ -29,43 +28,33 @@ class Env:
 		f = open('data/screenshot.raw', 'rb')
 		f.read(12)
 		self.im = Image.fromstring(mode, size, f.read())
-# im.save('screenshot.png')
 
 	def isChupai(self):
-		region_state = self.im.crop(self.box_state)
+		box = (30,780,125,800)
+		region_state = self.im.crop(box)
 		return ic.compareChupai(img2gray(region_state))
 
 	def canRangpai(self):
 		box = (30,1200,125,1300)
 		region_rangpai = self.im.crop(box)
-		region_rangpai.save('state/tmp_rangpai.png')
-		return ic.compareRangpai()
+		return ic.compareRangpai(img2gray(region_rangpai))
 
-	def getTypeAndNum(self):
+	def getDesk(self):
 		i = 0
 		cards = []
 		for lt in self.leftTop:
 			i += 1
 			box = (lt[0],lt[1],lt[0]+self.width,lt[1]+self.height)
 			region = self.im.crop(box)
-			#fn = str(random.uniform(0, 100))
-			#region.save('deskcard/20150416/'+fn+'.png')
-
-			fn = 'num/tmp_'+str(i)+'.png'
 			
-			region_num = region.crop(self.box_num)
-			region_num.save(fn)
-			card_num = ic.compareNum(fn)
-
-			fn = 'type/tmp_'+str(i)+'.png'
+			region_rank = region.crop(self.box_rank)
+			card_rank = ic.compareRank(img2gray(region_rank))
 			
-			region_type = region.crop(self.box_type)
-			region_type.save(fn)
-			card_type = ic.compareType(fn)
-			#print card_num,'_',card_type
-			if card_type != "unknown" and card_num != "unknown":
-				cards.append(card_type+"_"+card_num)
-
+			region_suit = region.crop(self.box_suit)
+			card_suit = ic.compareSuit(img2gray(region_suit))
+			#print card_rank,'_',card_suit
+			if card_suit != "unknown" and card_rank != "unknown":
+				cards.append(card_suit+"_"+card_rank)
 		return cards
 
 	def getOwnCard(self):

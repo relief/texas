@@ -1,4 +1,3 @@
-from subprocess import call
 import env
 from dapai import qipai, genzhu, allin, screencap
 
@@ -14,12 +13,14 @@ while True:
 		e.getImage()
 	except:
 		continue
-	# e.im.save('screen.png')
+
+	#e.im.save('screen.png')
 	#break
+	print "Desk: ", e.getDesk()
 	if e.isChupai() == 0:
 		continue
 	#e.im.save('screen.png')
-	print e.getTypeAndNum()
+	
 	e.getOwnCard()
 	if e.canRangpai():
 		genzhu()

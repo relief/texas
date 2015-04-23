@@ -1,3 +1,7 @@
 *.pyc
-*.png
-data/
+data/screenshot.raw	
+png/
+rank/all/
+rank/hard/
+own/
+suit/all/
