@@ -1,0 +1,1181 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"region"
+			],
+			[
+				"box",
+				"box_card1_suit"
+			],
+			[
+				"te",
+				"test_label"
+			],
+			[
+				"tes",
+				"test_data"
+			],
+			[
+				"test",
+				"test_label"
+			],
+			[
+				"fe",
+				"feature"
+			],
+			[
+				"ang",
+				"angleShouldercenterSpineHipcenter"
+			],
+			[
+				"an",
+				"angleHeadShoulderSpine"
+			],
+			[
+				"spine",
+				"spine2hipcenter"
+			],
+			[
+				"shou",
+				"shouldercenter2spine"
+			],
+			[
+				"sho",
+				"shouldercenter2spine"
+			],
+			[
+				"elb",
+				"elbow_left"
+			],
+			[
+				"sk",
+				"skeleton"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"cmd",
+				"cmd2"
+			],
+			[
+				"sc",
+				"screencap_raw"
+			],
+			[
+				"pos",
+				"poss"
+			],
+			[
+				"min",
+				"minm"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"max",
+				"maxs"
+			],
+			[
+				"card",
+				"card_type"
+			],
+			[
+				"car",
+				"card_num"
+			],
+			[
+				"fi",
+				"fittest_s"
+			],
+			[
+				"num",
+				"num_img"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"com",
+				"compareType"
+			],
+			[
+				"html",
+				"html_data"
+			],
+			[
+				"e",
+				"emails"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"a",
+				"account"
+			],
+			[
+				"email",
+				"email_addr"
+			],
+			[
+				"se",
+				"sender_email"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"sel",
+				"sel"
+			],
+			[
+				"mid",
+				"mid"
+			],
+			[
+				"emails",
+				"emails"
+			],
+			[
+				"send",
+				"sender_name"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"web",
+				"webhook"
+			],
+			[
+				"uid",
+				"uid"
+			],
+			[
+				"get",
+				"get_connect_tokens"
+			],
+			[
+				"cont",
+				"context_io"
+			],
+			[
+				"question",
+				"question_id"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"q",
+				"question_id"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"Cho",
+				"ChoiceInline"
+			],
+			[
+				"M",
+				"model"
+			],
+			[
+				"qu",
+				"question_text"
+			],
+			[
+				"r",
+				"rknn"
+			],
+			[
+				"sum",
+				"sum_l"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"la",
+				"last_pos"
+			],
+			[
+				"n",
+				"n_time"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"cla",
+				"classifier_nn"
+			],
+			[
+				"sli",
+				"slides"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"tra",
+				"train_labels"
+			],
+			[
+				"tr",
+				"train_labels"
+			],
+			[
+				"res",
+				"res_knn"
+			],
+			[
+				"res_",
+				"res_knn"
+			],
+			[
+				"flo",
+				"flow_num"
+			],
+			[
+				"knn",
+				"knn"
+			],
+			[
+				"c",
+				"classifier_nn"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"ta",
+				"train_labels"
+			],
+			[
+				"l",
+				"l"
+			],
+			[
+				"f",
+				"fdata"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"id",
+				"id3_k"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"ma",
+				"maxThreshold"
+			],
+			[
+				"pi",
+				"points"
+			],
+			[
+				"da",
+				"data_list"
+			],
+			[
+				"clas",
+				"classes"
+			],
+			[
+				"new",
+				"newNames"
+			],
+			[
+				"ne",
+				"newData"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"dat",
+				"datapoints"
+			],
+			[
+				"pri",
+				"printTree"
+			],
+			[
+				"fea",
+				"featureNames"
+			],
+			[
+				"bes",
+				"bestFeature"
+			],
+			[
+				"f_",
+				"f_mean"
+			],
+			[
+				"di",
+				"diff_sys_dia"
+			],
+			[
+				"ra",
+				"radiu"
+			],
+			[
+				"dis",
+				"dis_list"
+			],
+			[
+				"var",
+				"var"
+			],
+			[
+				"mean",
+				"mean"
+			],
+			[
+				"free",
+				"free_block"
+			],
+			[
+				"all",
+				"allocated"
+			],
+			[
+				"oi",
+				"oi_size"
+			],
+			[
+				"pat",
+				"pat_list"
+			],
+			[
+				"pa",
+				"patient_list"
+			],
+			[
+				"pr",
+				"print_patient"
+			],
+			[
+				"print",
+				"print_data"
+			],
+			[
+				"rea",
+				"readFromDir"
+			],
+			[
+				"remov",
+				"remove_block"
+			],
+			[
+				"add",
+				"add_block"
+			],
+			[
+				"prin",
+				"print_data"
+			],
+			[
+				"read",
+				"readFile"
+			],
+			[
+				"us",
+				"usleep"
+			],
+			[
+				"ret",
+				"retval"
+			],
+			[
+				"vic",
+				"victim_ip"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"bot",
+				"botNo"
+			],
+			[
+				"att",
+				"attackCommand"
+			],
+			[
+				"is",
+				"iswrite"
+			],
+			[
+				"wait",
+				"wait_proc"
+			],
+			[
+				"wai",
+				"wait_pid"
+			],
+			[
+				"ors",
+				"osprds"
+			],
+			[
+				"check",
+				"checkDeadLock"
+			],
+			[
+				"pid",
+				"pid_t"
+			],
+			[
+				"requ",
+				"request_proc"
+			],
+			[
+				"NO",
+				"NOSPRD"
+			],
+			[
+				"write",
+				"write_pid"
+			],
+			[
+				"locl",
+				"local_ticket"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"lis",
+				"list_sdev"
+			],
+			[
+				"dig",
+				"digits2"
+			],
+			[
+				"ntp",
+				"ntp_server"
+			],
+			[
+				"printf",
+				"printf	printf …"
+			],
+			[
+				"tv",
+				"tv_usec"
+			],
+			[
+				"outpu",
+				"output_pipe_b"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "play.py",
+			"settings":
+			{
+				"buffer_size": 430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fanhuidating.py",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "env.py",
+			"settings":
+			{
+				"buffer_size": 2219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ImageComp.py",
+			"settings":
+			{
+				"buffer_size": 3566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dapai.py",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/d/replay/g",
+		"/home/relief/Dropbox/cs239/feature.py",
+		"/home/relief/Dropbox/cs239/parse_data.py",
+		"/home/relief/Dropbox/cs239/c.py",
+		"/home/relief/Dropbox/cs239/knn.py",
+		"/home/relief/Dropbox/cs239/f",
+		"/home/relief/Dropbox/cs239/clean_data/3_good.txt",
+		"/home/relief/Dropbox/cs239/test.py",
+		"/d/replay/ImageComp1.py",
+		"/d/replay/test.py",
+		"/d/replay/screen.py",
+		"/d/replay/p",
+		"/d/replay/ImageComp.py",
+		"/d/replay/dapai.py",
+		"/d/replay/play.py",
+		"/d/replay/env.py",
+		"/d/replay/r",
+		"/home/relief/Dropbox/CS249/hw/0_B.ipy",
+		"/home/relief/Dropbox/CS249/hw/2",
+		"/home/relief/Dropbox/CS249/hw/Hw0B_answers.ipy",
+		"/home/relief/.bashrc",
+		"/home/relief/Dropbox/CS249/hw/1",
+		"/home/relief/Dropbox/cs239/clean/3_bad.txt",
+		"/home/relief/Dropbox/cs239/clean/3_good.txt",
+		"/home/relief/Dropbox/cs239/clean/2_good.txt",
+		"/home/relief/Dropbox/cs239/clean/2_bad.txt",
+		"/home/relief/Dropbox/cs239/clean/1_good.txt",
+		"/home/relief/Dropbox/cs239/clean/1_bad.txt",
+		"/d/replay/img.py",
+		"/home/relief/Dropbox/cs239/yanbin_good.txt",
+		"/home/relief/Dropbox/replay/p",
+		"/home/relief/Dropbox/replay/img.py",
+		"/home/relief/Dropbox/replay/s",
+		"/home/relief/Dropbox/replay/test.py",
+		"/home/relief/Dropbox/replay/ImageComp.py",
+		"/home/relief/Dropbox/replay/data/screen",
+		"/home/relief/ImageComp.py",
+		"/home/relief/Dropbox/replay/ImageCompTest.py",
+		"/home/relief/Dropbox/replay/identifycard.py",
+		"/home/relief/Dropbox/replay/t",
+		"/home/relief/Dropbox/replay/1.txt",
+		"/home/relief/Dropbox/replay/evt.txt",
+		"/home/relief/Dropbox/replay/evt.txtevent.txt",
+		"/home/relief/Dropbox/replay/raw.txt",
+		"/home/relief/Dropbox/replay/data/evt.txt",
+		"/home/relief/Dropbox/replay/m",
+		"/home/relief/Dropbox/replay/r",
+		"/home/relief/Dropbox/replay/g",
+		"/home/relief/Dropbox/replay/data/genzhu",
+		"/home/relief/Dropbox/replay/data/qipai",
+		"/d/sae/wys/1/App/Lib/Action/TaobaoAction.class.php",
+		"/home/relief/Dropbox/cs201/Javascript",
+		"/d/reran/3.txt",
+		"/home/relief/Dropbox/replay/trans.sh",
+		"/d/reran/1.txt",
+		"/home/relief/Dropbox/log/20150414.txt",
+		"/home/relief/Downloads/RTL8188C_8192C_USB_linux_v4.0.2_9000.20130911/driver/rtl8188C_8192C_usb_linux_v4.0.2_9000.20130911/Makefile",
+		"/d/reran/2.txt",
+		"/home/relief/Dropbox/replay/2.txt",
+		"/home/relief/1.txt",
+		"/etc/network/interfaces",
+		"/home/relief/Dropbox/CS249/assignment1/a.ipy",
+		"/home/relief/1.R",
+		"/home/relief/Dropbox/cs246/PR_latent symantic analysis",
+		"/home/relief/Dropbox/cs246/paper review",
+		"/d/sae/wys/1/App/Tpl/Taobao/zeroclipboard-2.2.0/README.md",
+		"/d/sae/wys/1/App/Tpl/Taobao/ZeroClipboard.js",
+		"/d/sae/wys/1/App/Tpl/Taobao/1.html",
+		"/d/sae/wys/1/App/Tpl/Taobao/event.js",
+		"/d/sae/wys/1/App/Tpl/Taobao/modal.html",
+		"/d/sae/wys/1/App/Tpl/Taobao/do.html",
+		"/d/sae/schoollink/1/index.html",
+		"/d/sae/wys/1/index.php",
+		"/d/sae/wys/1/App/Tpl/Taobao/zeroclipboard-2.2.0/dist/ZeroClipboard.js",
+		"/d/sae/wys/1/App/Tpl/Taobao/list.txt",
+		"/home/relief/Dropbox/tool/myucla_course.js",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/.gitignore",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/oauth123.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/genImg.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/sender_handler.py",
+		"/media/relief/新加卷/D/ucd/ECS142 compiler/PA5/README",
+		"/media/relief/新加卷/D/ucd/ECS142 compiler/PA2/README",
+		"/media/relief/新加卷/D/ucd/注意.txt",
+		"/media/relief/新加卷/D/ucd/ECS 154B Computer Architecture/HW1/README",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/name",
+		"/home/relief/.cache/.fr-7fZvyI/DataScienceIPythonNotebooks.ipynb",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/g.txt",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/oauth123 (XIE YU's conflicted copy 2015-04-05).py",
+		"/home/relief/.cache/.fr-XXqxYI/iwlwifi-1000-ucode-128.50.3.1/README.iwlwifi-1000-ucode",
+		"/home/relief/.cache/.fr-echBMb/Distributions.ipynb",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/static/css/grayscale.css",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/newsletter-email-template/stylesheets/email.css",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/templates/preference.html",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/templates/success.html",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/db.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/settings.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/__init__.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/error.log",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/gen_digest_html.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/email_timer.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/newsletter-email-template/templates/1.html",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/access.log",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/send_email.py",
+		"/home/relief/c/l1/l1/items.py",
+		"/home/relief/spider.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/123",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/newsletter-email-template/templates/newsletter.html",
+		"/home/relief/c/l1/123",
+		"/home/relief/c/l1/image_url1",
+		"/home/relief/c/l1/name",
+		"/home/relief/c/l1/l1/spiders/dmoz_spider.py",
+		"/home/relief/c/l1/link",
+		"/home/relief/c/l1/image_url",
+		"/home/relief/c/l1/l1/dmoz_spider.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/test/4.html",
+		"/home/relief/Dropbox/adigest/sendEmail.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/getMessage.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/temp.ret",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/lib/body_handler.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/log123.txt",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/templates/index.html",
+		"/home/relief/Dropbox/adigest/oauth.py",
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/__init__ (XIE YU's conflicted copy 2015-04-04).py",
+		"/d/py/mysite/polls/views.py",
+		"/d/py/mysite/polls/templates/polls/index.html",
+		"/home/relief/.ssh/config",
+		"/home/relief/.ssh/SSH_AWS.sh",
+		"/d/py/mysite/polls/templates/polls/detail.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"csv",
+			"math",
+			"skeleton",
+			"elbow",
+			"print",
+			"adb",
+			"m < 1000",
+			"RGBA",
+			"np",
+			"plt",
+			"original",
+			" 33316",
+			"delete.json",
+			"accounts=",
+			"accounts-",
+			"get_digest_list",
+			"insert_email",
+			"insrteafeasd",
+			"gen_digest",
+			"small",
+			"optionsRadios",
+			"btn",
+			"table",
+			" Logo",
+			"-logo",
+			"http://famouslogos.net/",
+			"Best Buy Logo",
+			"form",
+			"Download",
+			"ationalization",
+			"\"",
+			"print",
+			"label_num",
+			"n_time",
+			"attack_duration",
+			".txt",
+			"txt/",
+			"pdf",
+			"lecture_",
+			"\\n",
+			"task_download",
+			"Download",
+			"()\n",
+			"(.)*..:.. ",
+			"flow_num",
+			"192.*",
+			"self.",
+			"self,",
+			"training",
+			"I ",
+			"classes",
+			"labels",
+			"MD5",
+			"md",
+			"waitpid",
+			"1",
+			"1 -",
+			"pms",
+			"md",
+			"register_files",
+			"port",
+			"osp2p_vsnscanf",
+			"val",
+			"va_start",
+			"osp2p_snscanf",
+			"read_to_taskbuf",
+			"task_upload",
+			"start_download",
+			"argprocess",
+			"131",
+			"ip",
+			"data",
+			"tp, fp, tn, fn",
+			"tp, fp, fn, tn",
+			"print",
+			" 00:00:00",
+			" 01:00:00",
+			" 00:00:00",
+			"classify",
+			"printT",
+			"classify",
+			"make_tree",
+			"calc_info_gain",
+			"calc_entropy",
+			"adjustFeature",
+			"mean",
+			"train_class",
+			"train_data",
+			"getFeature",
+			"w",
+			"getFeature",
+			"train_data",
+			"classify",
+			"ggain",
+			"self.",
+			"self,",
+			"var",
+			"numP",
+			"calc_sys_dia_var",
+			"num_of_peak",
+			"calc_sys_dia_var",
+			"')\n",
+			"output",
+			"calc_sys_dia_var",
+			"link",
+			"create_blank_direntry",
+			" 01:00:00",
+			" 00:00:00",
+			" 01:00:00",
+			" 00:00:00",
+			"')\n",
+			"<p class=\"lineThrough\">.*</p>",
+			"<p class=\"lineThrough\">$204.00</p>",
+			"<p class=\"lineThrough\">.*</p>",
+			"<img width=\"1\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/reserve/tickets/vertSpacer.gif\">",
+			"zero_out",
+			"readdir",
+			"ospfs_inode_data",
+			"<a",
+			"</a>",
+			"<a.*e\">",
+			"<a.*\">D",
+			"<a.*</a>",
+			"<a .*</a>",
+			"<a*</a>",
+			"<a href=\"https://disneyland.disney.go.com/disneyland/en_US/reserve/buildticketurlredirect?id=DLR_DD_COMM_2DPH_TicketLink\"> ",
+			"<img name=\"roll_BuyButtonMedia_en_US\" galleryimg=\"no\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/_global/buttons/BuyButton2.gif\" alt=\"Buy\" title=\"Buy\" width=\"43\" height=\"16\" id=\"BuyButtonMedia\"></a>",
+			"<a href=\"https://disneyland.disney.go.com/disneyland/en_US/reserve/buildticketurlredirect?id=DLR_DD_COMM_2D1P_TicketLink\"> \n		\n			<img name=\"roll_BuyButtonMedia_en_US\" galleryimg=\"no\" src=\"https://secure.cdn1.wdpromedia.com/media/dlr_v0200/en_US/_global/buttons/BuyButton2.gif\" alt=\"Buy\" title=\"Buy\" width=\"43\" height=\"16\" id=\"BuyButtonMedia\"></a>"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"trail",
+			"hand",
+			"m < 2000 ",
+			"hearts",
+			"clubs",
+			"diamonds",
+			"33316",
+			"https://console.context.io/account/delete.json",
+			"delete.json?account=",
+			"accounts=",
+			"frequency",
+			"",
+			"-logo.jpg",
+			"http://famouslogos.net/images/",
+			"http://famouslogos.net/images",
+			"'",
+			"",
+			"'",
+			"",
+			"txt",
+			"txt/",
+			" ",
+			"",
+			".team4.uclaclass.isi.deterlab.net",
+			"",
+			"labels",
+			"self.data",
+			"tp, fp, fn, tn",
+			"tp, fp, tn, fn",
+			"",
+			"self.mean",
+			"self.train_class",
+			"self.train_data",
+			"self.getFeature",
+			"self.w",
+			"self.getFeature",
+			"self.train_data",
+			"",
+			"f2",
+			"f1",
+			"f.f2",
+			"f.f1",
+			"",
+			"data_list",
+			",",
+			"BotM",
+			"Bot1",
+			"",
+			"-",
+			"[",
+			"num_wait_pid",
+			"team4",
+			"bot2",
+			"master",
+			"client",
+			"train_",
+			"modified_mnist",
+			"//printf",
+			"modify_mnist",
+			"//printf",
+			"",
+			"evaluateOnce",
+			"last_push_type",
+			"   ",
+			"         ",
+			" ",
+			"",
+			":",
+			"\"",
+			"'",
+			"",
+			"tcp_packet",
+			"serverFork",
+			"client"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "play.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fanhuidating.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "env.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ImageComp.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2258,
+								2258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dapai.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "texas.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
