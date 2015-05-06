@@ -9,3 +9,5 @@ own/card2_suit/
 own/card1_rank/all
 own/card2_rank/all
 suit/all/
+record/
+*.sublime-workspace

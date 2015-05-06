@@ -1,32 +1,19 @@
 import Image
-import cv2
-import numpy
-
-# read raw_data to im
-mode = 'RGBA'
-size = (1080, 1920)
-f = open('data/screenshot.raw', 'rb')
-f.read(12)
-
-nparr = numpy.fromstring(f.read(), numpy.uint8)
-print nparr
-img_np = cv2.imdecode(nparr, 1)
-
-# CV
-img_ipl = cv2.cv.CreateImageHeader((1080, 1920), cv2.cv.IPL_DEPTH_8U, 3)
-cv2.cv.SetData(img_ipl, img_np)
-
-
-#im.show()
-# cimg = cv2.cv.CreateImageHeader(im.size,cv2.IPL_DEPTH_8U,3)    #CV Image
-# open_cv_image = numpy.array(im) 
-# open_cv_image = cv2.cvtColor(open_cv_image, cv2.cv.CV_RGBA2BGR)
-
-# cv2.cv.SetData(cimg,open_cv_image)
-
-cv2.cv.NamedWindow('cimg')
-cv2.cv.ShowImage('cimg',img_ipl)
-cv2.cv.WaitKey()
-
-# im.save('123.png')
-# contrast = cv2.imread('123.png')
+import os
+path = "record/"
+dirs = os.listdir( path )
+import random
+for file in dirs:
+	print file
+	if file[-1] != 'g':
+		continue
+	im = Image.open(path+file)
+	im = im.rotate(90).crop((800,230,1300,650)).save(path+file)
+# 	cimg = cv2.imread(path+file)
+# 	cimg = cv2.cvtColor(cimg, cv2.COLOR_BGR2GRAY)
+# 	name = compareCard2Rank(cimg)
+# 	os.rename(path+file, path+str(name)+"_"+str(random.uniform(0, 100))+".png")
+# im = Image.open("record/2015-05-05 17:00:53.png")
+# im = im.rotate(90).crop((800,230,1300,650)).show()
+# box = (800,230,1300,650)
+# im.crop(box).show()
