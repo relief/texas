@@ -1,4 +1,3 @@
-import card
 def checkStraight(ranks):
 	if ranks[0] == 13 and ranks[1] == 12 and ranks[2] == 11 and ranks[3] == 10 and ranks[4] == 1:
 		return True

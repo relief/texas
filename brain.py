@@ -41,7 +41,6 @@ class Brain:
 					for c3 in range(c2+1, numCards-1): 
 						for c4 in range(c3+1, numCards):
 							h = hand.Hand(cards[c0], cards[c1], cards[c2], cards[c3], cards[c4])
-						#	print h
 							if maxhand == None or h >= maxhand:
 								maxhand = h
 		return maxhand		
@@ -63,7 +62,6 @@ class Brain:
 						bestcomp = self.getMaxHand([c1,c2], desk)
 						if besthand >= bestcomp:
 							win += 1
-
 		return win*100/total
 
 	def decideOnRate(self, prob, game_round, canRangpai, numDesk):
@@ -74,18 +72,18 @@ class Brain:
 		print "	prob: ",prob, ' ,threshold: ', threshold
 		rand = random.random()
 		if prob > threshold:
-			if prob - threshold > 10:
-				if rand > 0.9:
+			if prob - threshold > 20:
+				if rand > 0.5:
+					allin()
+				else:
+					addone()
+			elif prob - threshold > 10:
+				if  rand > 0.9:
 					allin()
 				elif rand > 0.5:
 					addone()
-			elif prob - threshold > 5:
-				if  rand > 0.95:
-					allin()
-				elif rand > 0.7:
-					addone()
 			else:
-				if rand > 0.9:
+				if rand > 0.7:
 					addone()
 			genzhu()   # Sometimes you can not addone or allin... then, 
 		elif canRangpai:

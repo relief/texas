@@ -4,40 +4,172 @@
 		"selected_items":
 		[
 			[
+				"ran",
+				"rand"
+			],
+			[
 				"ra",
-				"raw_prob"
+				"random"
+			],
+			[
+				"num",
+				"numDesk"
+			],
+			[
+				"rang",
+				"rangpai"
+			],
+			[
+				"ge",
+				"genzhu"
+			],
+			[
+				"ca",
+				"canRangpai"
+			],
+			[
+				"decide",
+				"decideOnRate"
+			],
+			[
+				"w",
+				"worthContinue"
+			],
+			[
+				"bes",
+				"besthand"
+			],
+			[
+				"win",
+				"winRate"
+			],
+			[
+				"be",
+				"bestcomp"
+			],
+			[
+				"get",
+				"getMaxHand"
+			],
+			[
+				"cl",
+				"club"
+			],
+			[
+				"n",
+				"n---------------Begin"
+			],
+			[
+				"c",
+				"cards"
+			],
+			[
+				"sel",
+				"self_ranks"
+			],
+			[
+				"com",
+				"comp_ranks"
+			],
+			[
+				"se",
+				"self_ranks"
+			],
+			[
+				"F",
+				"Straight_Flush"
+			],
+			[
+				"hand",
+				"handtype"
+			],
+			[
+				"rate",
+				"rateOn3"
+			],
+			[
+				"max",
+				"maxhand"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"sui",
+				"suits"
+			],
+			[
+				"han",
+				"handtype"
+			],
+			[
+				"ha",
+				"handtype"
+			],
+			[
+				"e",
+				"evaluateOnHand"
+			],
+			[
+				"de",
+				"desk"
+			],
+			[
+				"t",
+				"Two_Pair"
+			],
+			[
+				"S",
+				"Straight"
+			],
+			[
+				"f",
+				"Flush"
+			],
+			[
+				"fu",
+				"Full_House"
+			],
+			[
+				"ch",
+				"checkNumSame"
+			],
+			[
+				"su",
+				"suits"
+			],
+			[
+				"chec",
+				"checkFlush"
+			],
+			[
+				"rank",
+				"ranks"
+			],
+			[
+				"card",
+				"card4"
+			],
+			[
+				"car",
+				"card3"
 			],
 			[
 				"two",
 				"twoCards"
 			],
 			[
-				"ca",
-				"card2"
-			],
-			[
-				"rank",
-				"rankToSymbol"
-			],
-			[
-				"car",
-				"card1"
-			],
-			[
 				"B",
 				"brain"
 			],
 			[
-				"pr",
-				"print_current"
-			],
-			[
 				"own",
 				"own_cards"
-			],
-			[
-				"card",
-				"card1_suit"
 			],
 			[
 				"min",
@@ -64,24 +196,8 @@
 				"cimg"
 			],
 			[
-				"get",
-				"getOwnCard"
-			],
-			[
-				"max",
-				"maxs_suit"
-			],
-			[
 				"st",
 				"st"
-			],
-			[
-				"ran",
-				"rangpai"
-			],
-			[
-				"e",
-				"equal_images"
 			],
 			[
 				"im",
@@ -184,24 +300,12 @@
 				"i"
 			],
 			[
-				"num",
-				"num_img"
-			],
-			[
 				"m",
 				"m"
 			],
 			[
-				"com",
-				"compareType"
-			],
-			[
 				"html",
 				"html_data"
-			],
-			[
-				"cl",
-				"close"
 			],
 			[
 				"a",
@@ -212,16 +316,8 @@
 				"email_addr"
 			],
 			[
-				"se",
-				"sender_email"
-			],
-			[
 				"pad",
 				"padding-top"
-			],
-			[
-				"sel",
-				"sel"
 			],
 			[
 				"mid",
@@ -234,10 +330,6 @@
 			[
 				"send",
 				"sender_name"
-			],
-			[
-				"w",
-				"write"
 			],
 			[
 				"web",
@@ -300,14 +392,6 @@
 				"last_pos"
 			],
 			[
-				"n",
-				"n_time"
-			],
-			[
-				"t",
-				"t"
-			],
-			[
 				"cla",
 				"classifier_nn"
 			],
@@ -344,10 +428,6 @@
 				"knn"
 			],
 			[
-				"c",
-				"classifier_nn"
-			],
-			[
 				"data",
 				"data"
 			],
@@ -358,10 +438,6 @@
 			[
 				"l",
 				"l"
-			],
-			[
-				"f",
-				"fdata"
 			],
 			[
 				"to",
@@ -420,10 +496,6 @@
 				"featureNames"
 			],
 			[
-				"bes",
-				"bestFeature"
-			],
-			[
 				"f_",
 				"f_mean"
 			],
@@ -442,78 +514,6 @@
 			[
 				"mean",
 				"mean"
-			],
-			[
-				"free",
-				"free_block"
-			],
-			[
-				"all",
-				"allocated"
-			],
-			[
-				"oi",
-				"oi_size"
-			],
-			[
-				"pat",
-				"pat_list"
-			],
-			[
-				"pa",
-				"patient_list"
-			],
-			[
-				"print",
-				"print_data"
-			],
-			[
-				"rea",
-				"readFromDir"
-			],
-			[
-				"remov",
-				"remove_block"
-			],
-			[
-				"add",
-				"add_block"
-			],
-			[
-				"prin",
-				"print_data"
-			],
-			[
-				"read",
-				"readFile"
-			],
-			[
-				"us",
-				"usleep"
-			],
-			[
-				"ret",
-				"retval"
-			],
-			[
-				"vic",
-				"victim_ip"
-			],
-			[
-				"file",
-				"fileName"
-			],
-			[
-				"bot",
-				"botNo"
-			],
-			[
-				"att",
-				"attackCommand"
-			],
-			[
-				"is",
-				"iswrite"
 			]
 		]
 	},
@@ -523,23 +523,47 @@
 			"file": "play.py",
 			"settings":
 			{
-				"buffer_size": 769,
+				"buffer_size": 1355,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/relief/Dropbox/CDH_Log.txt",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 4644,
-				"line_ending": "Windows"
+				"buffer_size": 1268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/relief/Dropbox/cs246/test.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testbrain.py",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "dapai.py",
 			"settings":
 			{
-				"buffer_size": 427,
+				"buffer_size": 925,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,15 +571,32 @@
 			"file": "brain.py",
 			"settings":
 			{
-				"buffer_size": 766,
+				"buffer_size": 2423,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.py",
+			"settings":
+			{
+				"buffer_size": 577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hand.py",
+			"settings":
+			{
+				"buffer_size": 2945,
+				"line_ending": "Unix",
+				"name": "class Hand:"
 			}
 		},
 		{
 			"file": "card.py",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 227,
 				"line_ending": "Unix",
 				"name": "class Card:"
 			}
@@ -564,7 +605,7 @@
 			"file": "twoCards.py",
 			"settings":
 			{
-				"buffer_size": 1105,
+				"buffer_size": 976,
 				"line_ending": "Unix"
 			}
 		},
@@ -612,24 +653,31 @@
 	},
 	"file_history":
 	[
-		"/d/replay/odds/2_cards_odds.dat",
-		"/d/replay/odds/2_cards_odds_chart",
-		"/d/replay/odds/2_cards",
+		"/d/replay/shiftpy.sh",
+		"/d/replay/1",
+		"/d/replay/oldcode/screen.py",
 		"/d/replay/oldcode/ImageComp1.py",
 		"/d/replay/oldcode/img2cv2.py",
 		"/d/replay/oldcode/img.py",
+		"/d/replay/oldcode/identifycard.py",
 		"/d/replay/oldcode/ImageCompTest.py",
+		"/d/replay/m",
+		"/d/replay/data/raw.txt",
+		"/d/replay/t",
+		"/d/replay/g",
+		"/d/replay/value.py",
+		"/home/relief/Dropbox/CDH_Log.txt",
+		"/d/replay/odds/2_cards_odds.dat",
+		"/d/replay/odds/2_cards_odds_chart",
+		"/d/replay/odds/2_cards",
 		"/d/replay/dapai.py",
 		"/d/replay/.gitignore",
-		"/d/replay/shiftpy.sh",
 		"/d/replay/test.py",
 		"/d/replay/oldcode/owncard.py",
 		"/d/replay/img.py",
 		"/d/replay/data/screencap",
-		"/d/replay/data/raw.txt",
 		"/d/replay/img2cv2.py",
 		"/d/replay/fanhuidating.py",
-		"/d/replay/g",
 		"/home/relief/Dropbox/cs239/feature.py",
 		"/home/relief/Dropbox/cs239/parse_data.py",
 		"/home/relief/Dropbox/cs239/c.py",
@@ -732,18 +780,11 @@
 		"/home/relief/c/l1/l1/items.py",
 		"/home/relief/spider.py",
 		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/123",
-		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/newsletter-email-template/templates/newsletter.html",
-		"/home/relief/c/l1/123",
-		"/home/relief/c/l1/image_url1",
-		"/home/relief/c/l1/name",
-		"/home/relief/c/l1/l1/spiders/dmoz_spider.py",
-		"/home/relief/c/l1/link",
-		"/home/relief/c/l1/image_url",
-		"/home/relief/c/l1/l1/dmoz_spider.py"
+		"/home/relief/Dropbox/adigest/www/FlaskApp/FlaskApp/newsletter-email-template/templates/newsletter.html"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -757,6 +798,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"time",
+			"High",
+			"hand",
+			"rank",
 			"5 Q",
 			"2 Q",
 			"/",
@@ -880,11 +925,7 @@
 			"mean",
 			"train_class",
 			"train_data",
-			"getFeature",
-			"w",
-			"getFeature",
-			"train_data",
-			"classify"
+			"getFeature"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -892,6 +933,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"handbase",
+			"suit",
 			" ",
 			"",
 			" ",
@@ -999,7 +1042,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1008,15 +1051,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 769,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								286,
+								286
 							]
 						],
 						"settings":
@@ -1025,27 +1068,84 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/relief/Dropbox/CDH_Log.txt",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4644,
+						"buffer_size": 1268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4277,
-								4277
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/relief/Dropbox/cs246/test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
 							]
 						],
 						"settings":
@@ -1053,31 +1153,90 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "dapai.py",
+					"buffer": 4,
+					"file": "testbrain.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								438,
+								438
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dapai.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								541,
+								541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "brain.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								970,
+								970
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1089,50 +1248,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "brain.py",
+					"buffer": 7,
+					"file": "test.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 766,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								595
+								262,
+								262
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 207.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "card.py",
+					"buffer": 8,
+					"file": "hand.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 2945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								2446,
+								2446
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Hand:",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "card.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
 							]
 						],
 						"settings":
@@ -1144,39 +1331,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 10,
 					"file": "twoCards.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1105,
+						"buffer_size": 976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								591,
+								591
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 11,
 					"file": "env.py",
 					"semi_transient": false,
 					"settings":
@@ -1188,37 +1376,8 @@
 						"selection":
 						[
 							[
-								2716,
-								2716
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1468.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "ImageComp.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3011,
-								3011
+								461,
+								461
 							]
 						],
 						"settings":
@@ -1230,7 +1389,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "ImageComp.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4654,
+								4654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2749.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1274,7 +1462,7 @@
 	"project": "texas.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":

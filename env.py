@@ -9,7 +9,7 @@ def img2gray(img):
 	cv2_data = cv2.cvtColor(cv2_data, cv2.COLOR_RGB2GRAY)
 	return cv2_data
 
-class Env:
+class Eye:
 	width  = 180
 	height = 133
 	padding = 21

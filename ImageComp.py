@@ -1,4 +1,3 @@
-from skimage.measure import structural_similarity as ssim
 import numpy as np
 import cv2
 
@@ -11,7 +10,6 @@ desk_suit['diamond'] = cv2.cvtColor(cv2.imread("suit/diamond.png"), cv2.COLOR_BG
 desk_suit['clubs'] = cv2.cvtColor(cv2.imread("suit/club.png"), cv2.COLOR_BGR2GRAY)
 desk_suit['heart'] = cv2.cvtColor(cv2.imread("suit/heart.png"), cv2.COLOR_BGR2GRAY)
 desk_suit['spade'] = cv2.cvtColor(cv2.imread("suit/spade.png"), cv2.COLOR_BGR2GRAY)
-
 
 desk_rank = []
 for i in range(1,14):
@@ -53,16 +51,6 @@ def mse(imageA, imageB):
 	# return the MSE, the lower the error, the more "similar"
 	# the two images are
 	return err
- 
-def compare_images(imageA, imageB):
-	# compute the mean squared error and structural similarity
-	# index for the images
-	m = mse(imageA, imageB)
-	s = ssim(imageA, imageB)
- 
-	# setup the figure
-	#print "MSE: %.2f, SSIM: %.2f\n" % (m, s)
- 	return m,s
 
 def equal_images(imageA, imageB, threshold):
 	m = mse(imageA, imageB)
@@ -136,7 +124,7 @@ def compareChupai(contrast):
 def compareRangpai(contrast):
 	return equal_images(state['rangpai'], contrast, 500) == 0
 
-def main():
+if __name__ == "__main__":
 	import os
 	path = "own/card2_rank/all/"
 	dirs = os.listdir( path )

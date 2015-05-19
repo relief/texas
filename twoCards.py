@@ -1,7 +1,4 @@
-import card
-
 class TwoCards:
-	order = ['A','K','Q','J','T','9','8','7','6','5','4','3','2']
 	prob = dict()
 	def __init__(self):
 		with open('odds/2_cards_odds.dat','r') as dat:

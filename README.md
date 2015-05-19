@@ -26,8 +26,34 @@ Brain Version 2:
 		prob = raw_prob ^ num_of_rivals
 
 	Expectation:
-		E = prob * (ChiDi + opt) + (1 - prob)*(Own_total_gold - opt)	opt in Options[]
-			Own_total_gold												qipai
+		E = prob * (ChiDi(opt) + own - opt) + (1 - prob)*(Own_total_gold - opt)	, opt in Options[]
+		  = prob * (ChiDi(opt)) + own - opt
+		  
+		Maximize -------------   prob * (ChiDi(opt)) - opt
+
+			Own_total_gold							       , qipai
+
+		ChiDi(opt)
+			chidi_current + sum(opt - sofar) >= ChiDi(opt) >= chidi_current + opt - max(sofar)
+
+		E1_upper, E1_lower, E2_upper, E2_lower.....
+
+		E1 _________   |
+		E2      _______|_
+		E3 			 __|_______
+					   |
+					   0
+		    ________       Choose E1
+		    		___    Chosse E2
+		    			   Attention: The last one may choose fold
+
+	To-do:
+		get num_of_rivals
+		get chidi_current
+		get each_put_money
+		get opts
+
+
 
 
 
