@@ -8,7 +8,7 @@ class Brain:
 	def __init__(self):
 		self.twoC = twoCards.TwoCards()
 
-	def print_current(self, game_round, own, desk, canRangpai):
+	def print_current(self, game_round, own, desk, canRangpai, numOfRivals):
 		print "My turn: ", game_round
 		print "Own: ",
 		for o in own:
@@ -17,9 +17,10 @@ class Brain:
 		for d in desk:
 			print d,
 		print "\ncanRangpai: ", canRangpai
+		print "\nRival num: ", numOfRivals
 
-	def decide(self, game_round, own=[], desk=[], canRangpai=False):
-		self.print_current(game_round, own, desk, canRangpai)
+	def decide(self, game_round, own=[], desk=[], canRangpai=False, numOfRivals=1):
+		self.print_current(game_round, own, desk, canRangpai, numOfRivals)
 		print 'Reasons:'
 		numDesk = len(desk)
 		if numDesk == 0:
@@ -28,6 +29,9 @@ class Brain:
 			besthand = self.getMaxHand(own, desk)
 			print '	Hand: ', besthand.handtype
 			winRate = self.getWinRate(own, desk, besthand)
+		print "Single-rival win rate: ",winRate
+		winRate = pow(winRate/100.0,numOfRivals) * 100
+		print "Multi-rival win rate: ",winRate
 		self.decideOnRate(winRate, game_round, canRangpai, numDesk)
 	 
 	def getMaxHand(self, own, desk):
@@ -66,25 +70,16 @@ class Brain:
 
 	def decideOnRate(self, prob, game_round, canRangpai, numDesk):
 		
-		threshold = 81 - game_round
-		if numDesk > 0:
-			threshold += numDesk * 3
+		threshold = 50
+
 		print "	prob: ",prob, ' ,threshold: ', threshold
 		rand = random.random()
 		if prob > threshold:
-			if prob - threshold > 20:
-				if rand > 0.5:
-					allin()
-				else:
-					addone()
-			elif prob - threshold > 10:
-				if  rand > 0.9:
-					allin()
-				elif rand > 0.5:
-					addone()
-			else:
-				if rand > 0.7:
-					addone()
+			print "	random number: ", rand
+			if threshold * (1 + rand) < prob:
+				allin()
+			elif threshold * (0.7 + rand) < prob:
+				addone()
 			genzhu()   # Sometimes you can not addone or allin... then, 
 		elif canRangpai:
 			rangpai()

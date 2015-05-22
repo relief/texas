@@ -27,11 +27,11 @@ while True:
 	try:
 		e.getImage()
 	except:
-		time.sleep(1)
+		# time.sleep(1)
 		continue
 	if e.canChupai() == 0:
 		print 'empty_operation: ', empty_operation
-		time.sleep(2)
+		time.sleep(1)
 		empty_operation += 1
 		if empty_operation == 60:   # 60 * (2+2.5) = 270s = 4.5min
 			e.saveRecord()				
@@ -50,7 +50,9 @@ while True:
 		my_turn_round += 1	
 	
 	canRangpai = e.canRangpai()
-	b.decide(my_turn_round, own, desk, canRangpai)	
+	numOfRivals = e.getNumOfRival()
+	b.decide(my_turn_round, own, desk, canRangpai, numOfRivals)	
 	
 	fn = 'all/' + str(random.random()) + '.png'
 	e.im.save(fn)
+	time.sleep(1*numOfRivals)	

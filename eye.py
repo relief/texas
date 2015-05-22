@@ -91,3 +91,22 @@ class Eye:
 				own_cards.append(card.Card(card1_suit, card1_rank))			
 				own_cards.append(card.Card(card2_suit, card2_rank))	
 		return own_cards
+
+	def getPot(self):
+		box = (787, 880, 822, 980)
+		return 1
+
+	def getNumOfRival(self):
+		width = 40
+		height= 10
+		box = [(214,339,214+width,339+height),(220,1488,220+width,1488+height),(400, 46, 400+width, 46+height),(410,1747,410+width,1747+height),(734,94,734+width,94+height),(738,1711,738+width,1711+height),(842,377,842+width,377+height),(853,1410,853+width,1410+height)]
+		numOfRivals = 0
+		for b in box:
+			img = self.im.crop(b)
+			s =  numpy.sum(img)
+			if s > 260000 and s < 300000:
+				numOfRivals += 1
+		return numOfRivals
+
+
+
